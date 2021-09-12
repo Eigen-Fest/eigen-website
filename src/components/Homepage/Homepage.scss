@@ -17,3 +17,10 @@
     }
   }
 }
+
+@media (max-aspect-ratio: 16/9) AND (max-aspect-ratio: 8/5) AND (max-aspect-ratio: 4/3) AND (max-aspect-ratio: 3/2) {
+  .vdo-container video { 
+      width:auto;
+      height: 100%;
+  }
+}
