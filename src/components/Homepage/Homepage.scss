@@ -1,0 +1,19 @@
+.homepage {
+  position: relative;
+  .vdo-container {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    video {
+      width: 100%;
+      // transform-origin: center;
+      object-fit: cover;
+    }
+  }
+}
